@@ -1,0 +1,14 @@
+.loading {
+  animation: rotation 1s infinite linear;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  border-top-color: #fff;
+  height: 30px;
+  width: 30px;
+}
+
+@keyframes rotation {
+  to {
+    transform: rotate(360deg);
+  }
+}

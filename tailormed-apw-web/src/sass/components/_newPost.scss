@@ -1,0 +1,32 @@
+.new-post {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  &__row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: var(--margin-m);
+  }
+  &__preview {
+    padding: 0 20px;
+    border: 1px solid var(--grey-light);
+    border-radius: 5px;
+  }
+  &__details {
+    padding: 20px;
+    border: 1px solid var(--grey-light);
+    border-radius: 5px;
+  }
+
+  &__source {
+    padding: 20px;
+    border: 1px solid var(--grey-light);
+    border-radius: 5px;
+  }
+
+  &__title {
+    font-size: 26px;
+    font-weight: bold;
+    margin: var(--margin-m) 0;
+  }
+}

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TailorMed.APW", "TailorMed.APW.Scrapers\TailorMed.APW.csproj", "{C591D996-1CB4-4FF4-BAEB-E49C22710F59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TailorMed.APW.Scrapers.Tests", "TailorMed.APW.Scrapers.Tests\TailorMed.APW.Scrapers.Tests.csproj", "{90E613E5-8A95-47C3-BDFF-7C67DF6475E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TailorMed.APW.CronFunction", "TailorMed.APW,CronFunction\TailorMed.APW.CronFunction.csproj", "{781F471F-8057-41BE-A626-24649C0644C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C591D996-1CB4-4FF4-BAEB-E49C22710F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C591D996-1CB4-4FF4-BAEB-E49C22710F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C591D996-1CB4-4FF4-BAEB-E49C22710F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C591D996-1CB4-4FF4-BAEB-E49C22710F59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90E613E5-8A95-47C3-BDFF-7C67DF6475E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90E613E5-8A95-47C3-BDFF-7C67DF6475E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90E613E5-8A95-47C3-BDFF-7C67DF6475E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90E613E5-8A95-47C3-BDFF-7C67DF6475E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{781F471F-8057-41BE-A626-24649C0644C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{781F471F-8057-41BE-A626-24649C0644C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{781F471F-8057-41BE-A626-24649C0644C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{781F471F-8057-41BE-A626-24649C0644C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D55204E-BEE9-432F-A329-56455149EFA7}
+	EndGlobalSection
+EndGlobal

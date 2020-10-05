@@ -1,0 +1,12 @@
+[
+  {
+    "FoundationName": "Healthwell Foundation",
+    "Url": "https://www.healthwellfoundation.org/disease-funds",
+    "ProgramListExtractor": "//body/div[@id='page']/main[@id='main']/section[1]/div[1]/div[1]/ul[2]",
+    "ProgramDetailsLinkExtractor": "a[1]",
+    "NameExtractor": "//body/div[@id='page']/main[@id='main']/section[@id='fund-intro']/div[1]/div[1]/h1[1]",
+    "AmountExtractor": "//body/div[@id='page']/main[@id='main']/section[2]/div[1]/div[1]/div[1]/div[2]/div[1]//text()[2]",
+    "StatusExtractor": "//body/div[@id='page']/main[@id='main']/section[2]/div[1]/div[1]/div[1]/div[1]/div[1]//text()[2]",
+    "IsActive": true
+  }
+]

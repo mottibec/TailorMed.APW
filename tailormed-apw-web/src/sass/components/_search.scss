@@ -1,0 +1,89 @@
+.search {
+  width: 300px;
+  margin-right: var(--margin-m);
+  @include res(tablet) {
+    width: 15px;
+    order: 1;
+  }
+  &__form {
+    position: relative;
+    width: 100%;
+    @include res(tablet) {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      z-index: 1;
+      box-shadow: var(--shadow);
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      height: 15px;
+      width: 15px;
+      margin-top: 3px;
+      path {
+        fill: #fff;
+      }
+    }
+  }
+
+  &__icon-res {
+    display: none;
+    position: relative;
+    @include res(tablet) {
+      display: block;
+    }
+  }
+  &__input {
+    display: block;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    font-size: 18px;
+    outline: none;
+    width: 100%;
+    color: var(--black);
+    transition: border-color 120ms;
+    height: 35px;
+    padding: 0 10px 0 40px;
+    &:focus {
+      border-color: transparent;
+    }
+
+    &::-webkit-input-placeholder {
+      color: var(--grey-dark);
+      font-size: 18px;
+      letter-spacing: 1px;
+    }
+    @include res(tablet) {
+      height: 100%;
+      padding: 0 40px;
+    }
+  }
+  &__close {
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--black);
+    @include res(tablet) {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,80 @@
+.auth {
+  max-width: 400px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border-radius: 10px;
+
+  &__form-box {
+    padding: 32px;
+    border-radius: 6px;
+    border: 1px solid var(--grey-light);
+    margin-top: 30px;
+  }
+
+  &__google-box {
+    padding: 16px 32px;
+
+    @include res(mobile) {
+      padding: 16px;
+    }
+  }
+
+  &__google,
+  &__facebook,
+  &__github {
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+    font-size: 16px;
+    @include res(mobile) {
+      justify-content: center;
+      padding-left: 10px;
+    }
+    svg {
+      margin-right: 10px;
+      height: 18px;
+      width: 18px;
+    }
+  }
+
+  &__google {
+    background: #DB4437;
+    color: #fff;
+    svg path {
+      fill: #fff;
+    }
+  }
+  &__facebook {
+    background: #3b5998;
+    color: #fff;
+    svg path {
+      fill: #fff;
+    }
+  }
+  &__github {
+    background: #333;
+    color: #fff;
+    svg path {
+      fill: #fff;
+    }
+  }
+
+  &__switch-box {
+    font-size: 12px;
+  }
+  &__switch {
+    color: #054ebb;
+  }
+  .error {
+    font-size: 10px;
+    color: red;
+  }
+}

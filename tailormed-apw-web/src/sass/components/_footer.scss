@@ -1,0 +1,16 @@
+.footer {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__item {
+    margin-right: var(--margin-s);
+
+    a {
+      transition: 120ms;
+      &:hover {
+        color: var(--main-color-hover);
+      }
+    }
+  }
+}

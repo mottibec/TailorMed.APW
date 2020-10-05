@@ -1,0 +1,66 @@
+.upload {
+    &__header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      @include res(mobile) {
+        align-items: flex-start;
+      }
+      
+      &-icon {
+        width: 32px;
+        height: 32px;
+      }
+      &-rules {
+        margin-left: var(--margin-s);
+        span {
+          font-weight: bold;
+          color: var(--black);
+          margin-bottom: 3px;
+        }
+      }
+    }
+  
+    &__main {
+      width: 100%;
+      height: 90px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: var(--margin-m);
+      &-box {
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      &-icon {
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+        path {
+          fill: var(--grey-dark);
+          transition: 120ms;
+        }
+  
+        &--with-rect {
+          rect {
+            fill: transparent;
+          }
+        }
+      }
+      &-browse {
+        color: var(--main-color);
+        transition: 120ms;
+      }
+  
+      &-box:hover &-browse {
+        color: var(--main-color-hover);
+      }
+      &-box:hover &-icon path {
+        fill: var(--main-color-hover);
+      }
+    }
+  }

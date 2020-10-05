@@ -1,0 +1,32 @@
+// Mixin{
+    @mixin res($bp) {
+        @if $bp == mini {
+          @media only screen and (max-width: 420px) {
+            @content;
+          }
+        }
+      
+        @if $bp == mobile {
+          @media only screen and (max-width: 768px) {
+            @content;
+          }
+        }
+      
+        @if $bp == tablet {
+          @media only screen and (max-width: 992px) {
+            @content;
+          }
+        }
+      
+        @if $bp == pc {
+          @media only screen and (max-width: 1200px) {
+            @content;
+          }
+        }
+      
+        @if $bp == big-pc {
+          @media only screen and (min-width: 1400px) {
+            @content;
+          }
+        }
+      }

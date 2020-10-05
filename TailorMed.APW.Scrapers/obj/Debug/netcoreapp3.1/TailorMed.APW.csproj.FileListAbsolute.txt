@@ -1,0 +1,9 @@
+C:\Users\mojo\source\repos\TailorMed.APW\TailorMed.APW.Scrapers\bin\Debug\netcoreapp3.1\TailorMed.APW.deps.json
+C:\Users\mojo\source\repos\TailorMed.APW\TailorMed.APW.Scrapers\bin\Debug\netcoreapp3.1\TailorMed.APW.dll
+C:\Users\mojo\source\repos\TailorMed.APW\TailorMed.APW.Scrapers\bin\Debug\netcoreapp3.1\TailorMed.APW.pdb
+C:\Users\mojo\source\repos\TailorMed.APW\TailorMed.APW.Scrapers\obj\Debug\netcoreapp3.1\TailorMed.APW.csprojAssemblyReference.cache
+C:\Users\mojo\source\repos\TailorMed.APW\TailorMed.APW.Scrapers\obj\Debug\netcoreapp3.1\TailorMed.APW.AssemblyInfoInputs.cache
+C:\Users\mojo\source\repos\TailorMed.APW\TailorMed.APW.Scrapers\obj\Debug\netcoreapp3.1\TailorMed.APW.AssemblyInfo.cs
+C:\Users\mojo\source\repos\TailorMed.APW\TailorMed.APW.Scrapers\obj\Debug\netcoreapp3.1\TailorMed.APW.csproj.CoreCompileInputs.cache
+C:\Users\mojo\source\repos\TailorMed.APW\TailorMed.APW.Scrapers\obj\Debug\netcoreapp3.1\TailorMed.APW.dll
+C:\Users\mojo\source\repos\TailorMed.APW\TailorMed.APW.Scrapers\obj\Debug\netcoreapp3.1\TailorMed.APW.pdb

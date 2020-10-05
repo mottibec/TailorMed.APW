@@ -1,0 +1,14 @@
+:root {
+  --grey-dark: #bdbec2;
+  --grey-light:#e8e8e8 ;
+  --white: #fff;
+  --black: #252935;
+  --text: var(--grey-dark);
+  --main-color: rgba(76, 226, 203, 0.8);
+  --main-color-hover: #4ce2cb;
+  --border-color: var(--grey-light);
+  --margin-s: 10px;
+  --margin-m: calc(var(--margin-s) * 2);
+  --margin-l: calc(var(--margin-s) * 5);
+  --shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}

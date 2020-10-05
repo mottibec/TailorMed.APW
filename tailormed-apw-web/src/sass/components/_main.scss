@@ -1,0 +1,8 @@
+.main {
+  margin-top: 30px;
+  padding: 0 30px;
+
+  @include res(mobile) {
+    padding: 0 10px;
+  }
+}

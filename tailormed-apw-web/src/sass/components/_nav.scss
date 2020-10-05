@@ -1,0 +1,43 @@
+.nav {
+  margin-bottom: var(--margin-l);
+  &__title {
+    font-size: 16px;
+    color: var(--black);
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__item {
+    padding: 10px 20px 10px 0px;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    transition: 120ms;
+
+    &.active {
+      color: var(--black);
+      svg path,
+      svg rect {
+        stroke: var(--black);
+        transition: 120ms;
+      }
+    }
+
+    svg,
+    span {
+      margin-right: var(--margin-s);
+    }
+    &:hover {
+      color: var(--black);
+      svg path,
+      svg rect {
+        stroke: var(--black);
+      }
+    }
+  }
+}

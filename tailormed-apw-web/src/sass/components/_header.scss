@@ -1,0 +1,77 @@
+.header {
+  height: 64px;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--white);
+
+  &__row {
+    display: flex;
+    align-items: center;
+    padding: 13px 30px;
+    height: 100%;
+    position: relative;
+
+    @include res(mobile) {
+      padding: 10px;
+    }
+  }
+  &__hamburger {
+    display: none;
+    width: 40px;
+    height: 36px;
+    position: relative;
+    cursor: pointer;
+    margin-right: var(--margin-m);
+
+    @include res(tablet) {
+      display: block;
+      order: 0;
+    }
+    div {
+      position: absolute;
+      height: 4px;
+      border-radius: 2px;
+      background: var(--black);
+      transition: transform 0.45s cubic-bezier(0.9, -0.6, 0.3, 1.6),
+        width 0.2s ease 0.2s;
+    }
+    input {
+      display: none;
+      & + div {
+        top: 50%;
+        left: 0;
+        margin: -2px 0 0 0;
+        width: 40px;
+        transform-origin: 50% 50%;
+        & + div {
+          top: 2px;
+          left: 0;
+          width: 20px;
+          transform-origin: 0 50%;
+          & + div {
+            bottom: 2px;
+            right: 0;
+            width: 28px;
+            transform-origin: 100% 50%;
+            transform: translate(-12px, 0);
+          }
+        }
+      }
+      &:checked + div {
+        transform: rotate(-45deg);
+        transition: transform 0.45s cubic-bezier(0.9, -0.6, 0.3, 1.6) 0.1s;
+        & + div {
+          width: 19px;
+          transform: translate(6px, 0) rotate(45deg);
+          transition: transform 0.45s cubic-bezier(0.9, -0.6, 0.3, 1.6) 0.1s,
+            width 0.2s ease;
+          & + div {
+            width: 19px;
+            transform: translate(-6px, 0) rotate(45deg);
+            transition: transform 0.45s cubic-bezier(0.9, -0.6, 0.3, 1.6) 0.1s,
+              width 0.2s ease;
+          }
+        }
+      }
+    }
+  }
+}
